@@ -1,0 +1,23 @@
+body#issue {
+}
+
+body#issue #issuemessage {
+	font-family: Helvetica,Arial,"Nimbus Sans L",sans-serif;
+	font-size: 16px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 250px;
+	width: 430px;
+	margin: -125px 0 0 -215px;
+}
+
+@media (max-width: 450px) {
+  body#issue #issuemessage { 
+  	margin: -215px 10px 0 10px;
+  	padding: 100px 0 0 0;
+  	width: auto;
+  	left: 0;
+  }
+}

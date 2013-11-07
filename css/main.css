@@ -1,0 +1,76 @@
+#container {
+  position:absolute;
+  width: 100%;
+  max-width: 1024px;
+  /*max-height: 768px;*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin:  0 auto;
+
+  box-shadow: 0 0 0 2px #5e8c71, 0 0 8px 4px rgba(8, 8, 8, 0.25);
+}
+
+a {
+	color: #5491D2;
+	text-decoration: none;
+}
+
+
+#preloader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin: -25px 0 0 -25px;
+}
+#list {
+	padding: 0;
+}
+#list li {
+	list-style-type: none;
+	float: left;
+}
+#list a {
+	margin: 0 15px 15px 0;
+	padding: 25px 0 0 0;
+	display: block;
+	
+	width: 200px;
+	height: 175px;
+	
+	border: 2px solid #333;
+	border-radius: 25px;
+	
+	-moz-box-shadow:    0px 2px 7px 0px rgba(16, 16, 16, 0.60);
+	-webkit-box-shadow: 0px 2px 7px 0px rgba(16, 16, 16, 0.60);
+	box-shadow:         0px 2px 7px 0px rgba(16, 16, 16, 0.60);
+	
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	
+	transition:background-color 0.1s, color 0.1s;
+}
+#list a:hover {
+	background-color: #5491D2;
+	color: #fff;
+}
+
+#hint {
+	display:none;
+	position: absolute;
+	bottom: 1em;
+}
+
+/*.vertImage {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*border: 2px solid #f0f;*/
+  /*max-width: 100%;*/
+  /*height: auto;*/
+  /*width: auto; *//* for ie9 */
+/*}*/
